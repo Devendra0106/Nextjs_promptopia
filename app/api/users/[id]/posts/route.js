@@ -1,6 +1,9 @@
 import { connectToDB } from "@utils/database";
 import Prompt from "@models/prompt";
 
+/*
+ * Get all prompts associated with specific user
+ */
 export const GET = async (req, { params }) => {
 	try {
 		await connectToDB();

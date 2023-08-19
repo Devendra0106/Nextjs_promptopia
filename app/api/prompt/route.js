@@ -1,6 +1,9 @@
 import { connectToDB } from "@utils/database";
 import Prompt from "@models/prompt";
 
+/*
+ * Get all prompts
+ */
 export const GET = async (request) => {
 	try {
 		await connectToDB();
