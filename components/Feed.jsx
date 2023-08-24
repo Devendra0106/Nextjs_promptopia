@@ -59,7 +59,11 @@ const Feed = () => {
 		);
 	};
 
-	const handleTagClick = (tagName) => {};
+	const handleTagClick = (tagName) => {
+		setSearchText(tagName);
+		const searchResult = filterPrompts(tagName);
+		setSearchedResults(searchResult);
+	};
 
 	return (
 		<section className="feed">
@@ -74,13 +78,14 @@ const Feed = () => {
 				/>
 			</form>
 
-			{/* All Prompts */}
 			{searchText ? (
+				// Show prompts based on search query
 				<PromptCardList
 					data={searchedResults}
 					handleTagClick={handleTagClick}
 				/>
 			) : (
+				// Show all prompts
 				<PromptCardList data={allPosts} handleTagClick={handleTagClick} />
 			)}
 		</section>
