@@ -6,7 +6,6 @@ import { useSearchParams } from "next/navigation";
 import Profile from "@components/Profile";
 
 const UserProfile = ({ params }) => {
-	console.log("In User Profile-->", params.id);
 	const searchParams = useSearchParams();
 	const userName = searchParams.get("name");
 	const [userPosts, setUserPosts] = useState([]);
