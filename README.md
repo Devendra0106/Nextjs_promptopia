@@ -1,3 +1,25 @@
+# Promptopia - A Next.js App
+Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts. Responsive full stack App developed using Next.js, React.js, Tailwind CSS, MongoDB.
+
+## Live Demo
+### [Promptopia](https://nextjs-promptopia-eta.vercel.app/)
+
+## Features
+* Discover prompts on various topics.
+* Create, Edit or Delete prompts.
+* View profile of other prompt creators.
+
+## Libraries/Packages used
+* [Next.js 13](https://nextjs.org/)
+* [React.js](https://react.dev/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [MongoDB](https://www.mongodb.com/)
+* [NextAuth.js](https://next-auth.js.org/)
+
+## ScreenShots
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
