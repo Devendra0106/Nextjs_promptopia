@@ -3,6 +3,7 @@ import Prompt from "@models/prompt";
 
 /*
  * Get all prompts
+ * endpoint - api/prompt
  */
 export const GET = async (request) => {
 	try {

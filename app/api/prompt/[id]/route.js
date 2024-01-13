@@ -3,6 +3,7 @@ import Prompt from "@models/prompt";
 
 /*
  *	GET(read) specific prompt
+ *  endpoint - /api/promt/post._id
  */
 export const GET = async (request, { params }) => {
 	try {
@@ -18,6 +19,7 @@ export const GET = async (request, { params }) => {
 
 /*
  *	PATCH(update) specific prompt
+ *  endpoint - /api/promt/post._id
  */
 export const PATCH = async (request, { params }) => {
 	const { prompt, tag } = await request.json();
@@ -41,6 +43,7 @@ export const PATCH = async (request, { params }) => {
 
 /*
  *	DELETE(delete) specific prompt
+ *  endpoint - /api/promt/post._id
  */
 export const DELETE = async (request, { params }) => {
 	try {

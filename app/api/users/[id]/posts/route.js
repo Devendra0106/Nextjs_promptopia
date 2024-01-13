@@ -3,6 +3,7 @@ import Prompt from "@models/prompt";
 
 /*
  * Get all prompts associated with specific user
+ * endpoint - api/users/session?.user.id/posts
  */
 export const GET = async (req, { params }) => {
 	try {
